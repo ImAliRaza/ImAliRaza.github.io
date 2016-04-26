@@ -1,0 +1,114 @@
+body{
+	padding-top: 50px;
+	
+
+}
+.jumbotron{
+	text-align: center;
+	background: url("../images/cover3.jpg");
+	color:#fff;
+}
+.btn-lg{
+	font-size: 26px;
+}
+.jumbotron h1{
+	font-family: 'PT Sans Narrow', sans-serif;
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+@media (max-width: 1130px){
+	.jumbotron h1{
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+}
+.jumbotron p{
+	margin-bottom: 30px;
+	padding: 0 100px;
+	font-weight: 100;
+	font-size: 20px;
+
+}
+ul.nav{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+}
+
+
+.incr{
+	font-weight: 200;
+	font-style: italic;
+	color:red;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+.homepage{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.homepage h2, h3{
+	color:#e74c3c;
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-transform: uppercase;
+
+}
+.homepage h2{
+	font-size: 30px;
+}
+.homepage h3{
+	font-size: 26px;
+}
+.homepage p{
+	font-size: 21px;
+	font-weight: 300;
+}
+.homepage a{
+	color:#e74c3c;
+}
+.homepage a:hover{
+
+	text-decoration:none;
+	opacity: 0.7;
+}
+.homepage hr{
+	border-top:1px solid #e74c3c;
+	width: 120px;
+	margin-top: 15px;
+}
+#hopsy{
+	background-color: #f5f5f5;
+}
+footer{
+background-color: #c33a2c;
+padding-top: 20px;
+padding-bottom: 40px;
+}
+@media(max-width: 960px){
+	.jumbotron h1{
+		font-size: 30px;
+	}
+	.jumbotron p{
+		font-size: 20px;
+		padding: 0 10px;
+	}
+	#hopsy .col-md-4{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+@media(max-width: 740px){
+	.jumbotron h1{
+		font-size: 30px;
+	}
+	.jumbotron p{
+		font-size: 15px;
+		padding: 0;
+	}
+	.btn-lg{
+		font-size: 13px;
+	}
+	#spec p{
+		font-size: 17px;
+	}
+}
