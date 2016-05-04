@@ -1,67 +1,59 @@
 body{
 	padding-top: 50px;
-	
-
+}
+.btn-danger{
+	margin-top: 9px;
 }
 .jumbotron{
+	font-family: 'Raleway', sans-serif;
+
 	text-align: center;
-	background: url("../images/cover3.jpg");
-	color:#fff;
-}
-.btn-lg{
-	font-size: 26px;
+	color:#95a5a6;
+	background: url(../image/eyes.jpg);
+	font-weight: 100;
+	margin-bottom: 0px;
 }
 .jumbotron h1{
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	margin-top: 0px;
 	margin-bottom: 50px;
-}
-@media (max-width: 1130px){
-	.jumbotron h1{
-		font-size: 56px;
-		margin-bottom: 30px;
-	}
 }
 .jumbotron p{
 	margin-bottom: 30px;
 	padding: 0 100px;
 	font-weight: 100;
-	font-size: 20px;
-
 }
-ul.nav{
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 15px;
-}
-
-
-.incr{
+.btn-lg{
+	font-size: 1.2em;
 	font-weight: 200;
-	font-style: italic;
-	color:red;
-	font-size: 1em;
-	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
 }
 .homepage{
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
-.homepage h2, h3{
+.homepage h2,h3{
 	color:#e74c3c;
-	font-family: 'PT Sans Narrow', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
-
 }
 .homepage h2{
 	font-size: 30px;
 }
 .homepage h3{
-	font-size: 26px;
+	font-size: 20px;
+}
+
+.homepage hr{
+	width: 13%;
+	border-color: red;
+	margin-top: 12px;
 }
 .homepage p{
 	font-size: 21px;
 	font-weight: 300;
+	font-family: 'Raleway', sans-serif;
 }
 .homepage a{
 	color:#e74c3c;
@@ -71,18 +63,60 @@ ul.nav{
 	text-decoration:none;
 	opacity: 0.7;
 }
-.homepage hr{
-	border-top:1px solid #e74c3c;
-	width: 120px;
-	margin-top: 15px;
+#specs{
+	margin-top: 30px;
 }
-#hopsy{
+#gits{
 	background-color: #f5f5f5;
 }
+span.log{
+	font-weight: 200;
+	font-style: italic;
+	color:red;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+div.innerfoot{
+	padding-top: 50px;
+	padding-bottom: 30px;
+	
+	text-align: center;
+}
+.innerfoot p{
+	color:#fff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.innerfoot h2{
+	font-family: 'Raleway', sans-serif;
+	text-transform: lowercase;
+	font-size: 25px;
+}
+div#footcolor{
+	background-color: #e74c3c;
+}
 footer{
-background-color: #c33a2c;
-padding-top: 20px;
-padding-bottom: 40px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	background-color: #ecf0f1;
+	text-align: center;
+}
+footer p{
+	color:#fff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+footer h2{
+	color:#2c3e50;
+	font-family: 'Raleway', sans-serif;
+	text-transform: lowercase;
+	font-size: 25px;
+}
+@media (max-width: 1130px){
+	.jumbotron h1{
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
 }
 @media(max-width: 960px){
 	.jumbotron h1{
@@ -110,5 +144,17 @@ padding-bottom: 40px;
 	}
 	#spec p{
 		font-size: 17px;
+	}
+	.homepage h2{
+		font-size: 20px;
+	}
+	.homepage p{
+		font-size: 16px;
+	}
+	footer h2{
+		font-size: 16px;
+	}
+	.innerfoot h2{
+		font-size: 16px;
 	}
 }
